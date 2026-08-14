@@ -1,6 +1,12 @@
-# Human-like Cognitive Generalization for Large Models via Brain-in-the-loop Supervision
+# Human-like Cognitive Generalization for Large Models via Mental Representation-Guided Supervision
 Official Implementation in PyTorch
 
+* 2025-05-14:
+    [Preprint release](https://arxiv.org/abs/2505.09085).
+
+* 2026-04-01:
+    Published in [Nature Communications](https://www.nature.com/articles/s41467-026-71267-5).
+  
 ## Environment setup
 Create a conda environment and install the packages necessary to run the code.
 ```
@@ -89,6 +95,17 @@ python brain_in_the_loop_training.py --proxy CLIP --model_size base --sub sub-3
 * `extract_*_features.py`: Codes for extracting features
 * `brain_in_the_loop_training.py`: Codes for training brain-in-the-loop supervised models
 * `gpt_decoder_training.py`: Codes for training gpt-based semantic reconstruction models
+
+## Citation
+```
+@article{chen2026human,
+  title={Human-like Cognitive Generalization for Large Models via Mental Representation-Guided Supervision},
+  author={Chen, Jiaxuan and Qi, Yu and Wang, Yueming and Pan, Gang},
+  journal={Nature Communications},
+  year={2026},
+  publisher={Nature Publishing Group UK London}
+}
+```
 
 ## Acknowledgement
 We thank Kamitani Lab for making their raw and pre-processed data public. Our semantic reconstruction model implementation is based on the [SMALLCAP](https://github.com/RitaRamo/smallcap). We thank these authors for making their codes available!
