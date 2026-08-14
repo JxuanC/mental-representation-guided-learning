@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+env/
+.eggs/
+*.egg-info/
+.ipynb_checkpoints/
+
+# 预训练模型与特征（体积大，请勿上传，需要时单独分发）
+pretrained_models/
+pretrained_features/
+
+# IDE / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 日志与临时文件
+*.log
+tmp/
